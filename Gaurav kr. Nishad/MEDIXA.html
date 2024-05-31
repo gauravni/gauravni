@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIXA PHARMA</title>
+    <link rel="stylesheet" href="c:\Users\Gaurav Kumar Nishad\OneDrive\Desktop\MEDIXA PHARMA\style.css.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            background-color: teal;
+        }
+
+        .head {
+            background-color: black;
+            color: white;
+            height: 30px;
+        }
+
+        li {
+            list-style: none;
+            display: inline;
+            padding: 12px;
+        }
+
+        ul {
+            padding: 2px;
+        }
+
+        nav {
+            display: flex;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a:hover {
+            color: blue;
+            font-style: bold;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            background-color: teal;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        .search input {
+            width: 540px;
+            height: 30px;
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .search img {
+            height: 4vh;
+            padding: 20px;
+            margin: 0 0 0 167px;
+        }
+
+        .slider {
+            margin: auto;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .sliderimg1 {
+            transform: translate(-8vw);
+            animation: slide1 1s 2s  forwards;
+        }
+
+        .sliderimg2 {
+            transform: translate(13vw);
+            animation: slide2 1s 2s forwards;
+        }
+
+        .sliderimg3 {
+            transform: translate(32vw);
+        }
+
+        .slider img {
+            width: 300vw;
+        }
+
+        @keyframes slide1 {
+            0% {
+                transform: translate(-8vw);
+            }
+
+            100% {
+                transform: translate(66vw);
+            }
+        }
+
+        @keyframes slide2 {
+            0% {
+                transform: translate(13vw);
+            }
+
+            100% {
+                transform: translate(102vw);
+            }
+        }
+
+        .btn {
+            margin: 2vw;
+            height: 5vh;
+            width: 70px;
+            border: 2px solid black;
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .Box1 {
+            max-width: 91vw;
+            margin: 30px auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .text-center {
+            text-align: center;
+
+        }
+
+        .img {
+            margin: 12px 12px;
+            padding: 12px 12px;
+            justify-content: center;
+            display: inline-flex;
+            flex-direction: column;
+
+        }
+
+        .my-1 {
+            margin: 12px 0;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+        }
+        .img a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="logoi.png" alt="ligo image" height="42vh" width="124vw">
+    </div>
+    <div class="head">
+        <header>
+            <nav>
+                <ul>
+                    <li><a herf="Home.html"> Home</a></li>
+                    <li><a herf="Help.html"> Help</a></li>
+                    <li><a herf="About.html"> About</a></li>
+                    <li><a herf="Log.html"> Log in</a></li>
+                    <li><a herf="cart.html"> Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="search">
+        <img src="https://plus.unsplash.com/premium_photo-1683578888060-2cff91f13015?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="search">
+        <input type="text" name="Search" id="search" placeholder="Search For Product">
+        <button class="btn">Search</button>
+    </div>
+    <main>
+        <div class="items">
+            <div class="slider">
+                <img class="sliderimg1"
+                    src="https://www.shutterstock.com/image-photo/different-pills-on-color-background-600nw-1421041688.jpg"
+                    alt="slider image">
+
+                <img class="sliderimg2"
+                    src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNpbmV8ZW58MHx8MHx8fDA%3D"
+                    alt="slider image">
+
+                <img class="sliderimg3"
+                    src="https://plus.unsplash.com/premium_photo-1672759455907-bdaef741cd88?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVkaWNpbmF8ZW58MHx8MHx8fDA%3D"
+                    alt="slider image">
+
+            </div>
+
+            <div class="Box1">
+                <div class="card">
+                    <div class="img">
+                        <div><a href="Lab.html">
+                                <img src="https://plus.unsplash.com/premium_photo-1661378532596-25c6f32ab3d6?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFiJTIwdGVzdHxlbnwwfHwwfHx8MA%3D%3D"
+                                    alt="image" height="150vh" width="150vw">
+
+                                <div class="text1">
+                                    <p class="text-center my-1">Lab Test</p>
+                                    <p class="text-center my-1">15% Off</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="img">
+                        <div><a href="Medicine.html">
+                                <img src="https://plus.unsplash.com/premium_photo-1666299175867-ecdd59420297?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGljYXRpb258ZW58MHx8MHx8fDA%3D"
+                                    alt="image" height="150vh" width="150vw">
+
+                                <div class="text1">
+                                    <p class="text-center my-1">Medicine</p>
+                                    <p class="text-center my-1">50% Off</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="img">
+                        <div><a href="Healthcare.html">
+                                <img src="https://media.istockphoto.com/id/1446229465/photo/red-heart-and-stethoscope-are-on-blue-background.webp?b=1&s=170667a&w=0&k=20&c=1-aE7XV24f8qVr8fGnpvypir8fSxYaM9sHZurKoutj8="
+                                    alt="image" height="150vh" width="150vw">
+
+                                <div class="text1">
+                                    <p class="text-center my-1">Htalthcare</p>
+                                    <p class="text-center my-1">60% Off</p>
+                                </div>
+                            </a></div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://plus.unsplash.com/premium_photo-1670509045675-af9f249b1bbe?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BlY2lhbCUyMG9mZmVyc3xlbnwwfHwwfHx8MA%3D%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Offer</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <div><a href="Doctor.html">
+                                <img src="https://media.istockphoto.com/id/1446502494/photo/portrait-of-elderly-doctor-with-his-younger-colleague-at-hospital-corridor-health-care-concept.webp?b=1&s=170667a&w=0&k=20&c=i8zh2EPTi1j3zlI9NTpQPADuqFYj43m2LdM0x7InC20="
+                                    alt="image" height="150vh" width="150vw">
+                                <div class="text1">
+                                    <p class="text-center my-1">Doctor</p>
+                                </div>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="Box1">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://media.istockphoto.com/id/1778157148/photo/docktors-hand.webp?b=1&s=170667a&w=0&k=20&c=y27vRQ6PL4pWyCP874_xQRX7ZxDk8pEa7nPJAMqdhp8="
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Gloves</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://plus.unsplash.com/premium_photo-1666299175867-ecdd59420297?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGljYXRpb258ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Medicine</p>
+                            <p class="text-center my-1">50% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneEAIADq9h63kM-p9754GEQTZC1ePLeM15_1kKy33OQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://valleykidstherapy.com/wp-content/uploads/2021/06/national-cancer-institute-utozCMIkis8-unsplash-scaled-900x607.jpg"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoL2-sf3FaHWmBOoqCX3RQTobl8otNDro8LZ81uCvTQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Vaccine</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511262-c7b5c7f42b14?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lZGljYWwlMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMGVxdWlwbWVudHxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Doctor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Box1">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://media.istockphoto.com/id/1778157148/photo/docktors-hand.webp?b=1&s=170667a&w=0&k=20&c=y27vRQ6PL4pWyCP874_xQRX7ZxDk8pEa7nPJAMqdhp8="
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Lab Test</p>
+                            <p class="text-center my-1">15% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://plus.unsplash.com/premium_photo-1666299175867-ecdd59420297?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGljYXRpb258ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Medicin</p>
+                            <p class="text-center my-1">50% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneEAIADq9h63kM-p9754GEQTZC1ePLeM15_1kKy33OQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://valleykidstherapy.com/wp-content/uploads/2021/06/national-cancer-institute-utozCMIkis8-unsplash-scaled-900x607.jpg"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoL2-sf3FaHWmBOoqCX3RQTobl8otNDro8LZ81uCvTQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Vaccine</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511262-c7b5c7f42b14?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lZGljYWwlMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMGVxdWlwbWVudHxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Doctor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Box1">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://media.istockphoto.com/id/1778157148/photo/docktors-hand.webp?b=1&s=170667a&w=0&k=20&c=y27vRQ6PL4pWyCP874_xQRX7ZxDk8pEa7nPJAMqdhp8="
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Lab Test</p>
+                            <p class="text-center my-1">15% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://plus.unsplash.com/premium_photo-1666299175867-ecdd59420297?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZGljYXRpb258ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Medicin</p>
+                            <p class="text-center my-1">50% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneEAIADq9h63kM-p9754GEQTZC1ePLeM15_1kKy33OQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://valleykidstherapy.com/wp-content/uploads/2021/06/national-cancer-institute-utozCMIkis8-unsplash-scaled-900x607.jpg"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBoL2-sf3FaHWmBOoqCX3RQTobl8otNDro8LZ81uCvTQ&s"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Vaccine</p>
+                        </div>
+                    </div>
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511262-c7b5c7f42b14?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lZGljYWwlMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Htalthcare</p>
+                            <p class="text-center my-1">60% Off</p>
+                        </div>
+                    </div>
+
+
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaWNhbCUyMGVxdWlwbWVudHxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="image" height="150vh" width="150vw">
+
+                        <div class="text1">
+                            <p class="text-center my-1">Doctor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+
+</script>
+
+</html>
